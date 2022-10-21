@@ -112,4 +112,4 @@ def test_right_way(browser):
             (By.CSS_SELECTOR, "p.woocommerce-thankyou-order-received"), \
                 "Ваш заказ принят. Благодарим вас."))
 
-    assert result, 'Unexpected notificztion text'
+    assert result, 'Unexpected notification text'
